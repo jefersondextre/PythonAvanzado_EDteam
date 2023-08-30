@@ -60,7 +60,6 @@ def buscarPalabraAleat(listaPalabras):
     palabraAleatoria = random.randint(0, len(listaPalabras) - 1)
     return listaPalabras[palabraAleatoria]
 
-
 def displayBoard(AHORCADO, letraIncorrecta, letraCorrecta, palabraSecreta):
     print(AHORCADO[len(letraIncorrecta)])
     print("")
