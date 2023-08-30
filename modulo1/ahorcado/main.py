@@ -77,7 +77,6 @@ def displayBoard(AHORCADO, letraIncorrecta, letraCorrecta, palabraSecreta):
         print(letra, fin)
     print("")
 
-
 def elije_letra(algunaLetra):
     # Devuelve la letra que el jugador ingreso.
     # Esta función hace que el jugador ingrese
