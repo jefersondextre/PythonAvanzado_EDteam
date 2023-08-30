@@ -1,0 +1,5 @@
+flake8
+
+# instalando pre-commit
+# Jeferson Dextre@DESKTOP-AJ7A1GF MINGW64 /d/EDteam_Cursos/PythonAvanzado_EDteam/modulo1/ahorcado (main)
+# $ pip install pre-commit
