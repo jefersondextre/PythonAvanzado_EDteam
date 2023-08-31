@@ -6,7 +6,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+pre-commit-config.yml
 # C extensions
 *.so
 

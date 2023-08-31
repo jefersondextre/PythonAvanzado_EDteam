@@ -50,14 +50,16 @@ AHORCADO = ['''
           |
     =========''']
 palabras = """valoracion aprenderpython comida juego python web imposible
-           variable curso volador cabeza reproductor mirada escritor billete
+            variable curso volador cabeza reproductor mirada escritor billete
            lapicero celular valor revista gratuito disco voleibol
            anillo estrella""".split()
+
 
 def buscarPalabraAleat(listaPalabras):
     # Esta funcion retorna una palabra aleatoria.
     palabraAleatoria = random.randint(0, len(listaPalabras) - 1)
     return listaPalabras[palabraAleatoria]
+
 
 def displayBoard(AHORCADO, letraIncorrecta, letraCorrecta, palabraSecreta):
     print(AHORCADO[len(letraIncorrecta)])
@@ -76,6 +78,7 @@ def displayBoard(AHORCADO, letraIncorrecta, letraCorrecta, palabraSecreta):
     for letra in espacio:
         print(letra, fin)
     print("")
+
 
 def elije_letra(algunaLetra):
     # Devuelve la letra que el jugador ingreso.
